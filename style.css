@@ -27,7 +27,7 @@ body::before {
 }
 
 .container {
-    width: 90%;
+    width: 90%;/*90*/
     max-width: 1200px;
     height: auto;
     padding: 2rem;
@@ -116,7 +116,9 @@ p, button {
     font-weight: 400;
     text-align: center;
 }
-
+.container__imagen-persona{
+    width: 60%;
+}
 @media (min-width: 768px) {
     .container {
         flex-direction: row;
